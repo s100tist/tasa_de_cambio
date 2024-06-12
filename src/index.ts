@@ -1,5 +1,7 @@
 import express from 'express';
+import dotenv from 'dotenv';
 import { obtener_tasa_de_cambio } from './obtener_tasa';
+dotenv.config();
 const app = express();
 const port = 4010;
 
