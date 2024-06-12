@@ -1,16 +1,3 @@
-/*
-CREATE TABLE mis_datos.tasa_de_cambio (
-    id SERIAL PRIMARY KEY,
-    fecha DATE NOT NULL,
-    tipo_cambio NUMERIC(10, 4) NOT NULL
-);
-CREATE TABLE tc.tasas_de_cambio (
-  fecha DATE NOT NULL,
-  tipo_de_cambio VARCHAR(10) NOT NULL,
-  valor NUMERIC NOT NULL,
-  PRIMARY KEY (fecha, tipo_de_cambio)
-);
- */
 import { Pool } from 'pg';
 import dotenv from 'dotenv';
 
